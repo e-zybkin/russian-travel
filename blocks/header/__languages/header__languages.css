@@ -1,0 +1,9 @@
+.header__languages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  max-width: 78px;
+  min-height: 28px;
+  margin: 0px;
+  padding: 0px;
+}
