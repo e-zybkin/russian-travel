@@ -7,3 +7,9 @@
   padding: 0;
   margin: 114px 442px 92px 148px;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin: 114px 286px 92px 48px;
+  }
+}
