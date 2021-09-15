@@ -3,7 +3,13 @@
   grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
   max-width: 78px;
-  min-height: 28px;
-  margin: 0px;
+  margin: 0 0 6px 0;
   padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__languages {
+    max-width: 62px;
+    margin-bottom: 8px;
+  }
 }

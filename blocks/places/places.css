@@ -1,7 +1,7 @@
 .places {
   max-width: 984px;
   min-height: 3392px;
-  margin: 0 auto;
+  margin: 0 auto 92px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,5 +10,22 @@
 @media screen and (max-width: 1279px) {
   .places {
     max-width: 928px;
+    min-height: 3292px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin-bottom: 90px;
+    max-width: 720px;
+    min-height: 2808px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin-bottom: 66px;
+    max-width: 320px;
+    min-height: 5177px;
   }
 }

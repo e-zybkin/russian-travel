@@ -9,3 +9,17 @@
   grid-area: url;
   align-self: end;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    align-self: flex-start;
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}

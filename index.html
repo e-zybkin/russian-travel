@@ -15,7 +15,7 @@
           alt="Логотип сайта в виде нашей страны"
         >
         <div class="header__languages">
-          <a class="header__lang-link" href="#">Ru</a>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
@@ -140,21 +140,23 @@
           <article class="place">
             <h3 class="place__title">Куршская коса</h3>
 
+            <div class="place__website">
+              <h4 class="place__url-heading">URL</h4>
+              <a class="place__link links" href="http://park-kosa.ru"
+                >park-kosa.ru</a
+              >
+            </div>
+
             <img
               class="place__image"
               src="./images/place-kosa.jpg"
               alt="Куршская коса"
             >
 
-            <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
-              <a class="place__link links" href="http://park-kosa.ru">park-kosa.ru</a>
-            </div>
-
             <div class="place__paragraphs">
               <p class="place__paragraph">
-                Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
-                горизонта — спокойного Куршского залива с одной стороны и
+                Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
+                водных горизонта — спокойного Куршского залива с одной стороны и
                 подёрнутого рябью волн Балтийского моря с другой. Уникальная
                 природная зона на краю российского анклава.
               </p>
@@ -172,12 +174,6 @@
           <article class="place">
             <h3 class="place__title">Кольский</h3>
 
-            <img
-              class="place__image"
-              src="./images/place-kolsky.jpg"
-              alt="Кольский полуостров"
-            >
-
             <div class="place__website">
               <h4 class="place__url-heading">URL</h4>
               <a
@@ -187,6 +183,12 @@
                 >National Geographic</a
               >
             </div>
+
+            <img
+              class="place__image"
+              src="./images/place-kolsky.jpg"
+              alt="Кольский полуостров"
+            >
 
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -199,9 +201,9 @@
                 арктического фестиваля в Териберке. Возможно, слово «Хибины» не
                 осталось под снегом школьных воспоминаний об уроках географии.
                 Возможно, вы не интересовались пронизывающей земную кору
-                сверхглубокой скважиной, а от апатитов вас давно накрывает апатия.
-                Но ваша мечта увидеть северное сияние начинает сбываться с билетом
-                в Мурманск.
+                сверхглубокой скважиной, а от апатитов вас давно накрывает
+                апатия. Но ваша мечта увидеть северное сияние начинает сбываться
+                с билетом в Мурманск.
               </p>
             </div>
           </article>
@@ -209,23 +211,25 @@
           <article class="place">
             <h3 class="place__title">Алтай</h3>
 
+            <div class="place__website">
+              <h4 class="place__url-heading">URL</h4>
+              <a
+                class="place__link links"
+                href="https://www.facebook.com/vera.bashm"
+                >Facebook</a
+              >
+            </div>
+
             <img
               class="place__image"
               src="./images/place-altai.jpg"
               alt="Алтай"
             >
 
-            <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
-              <a class="place__link links" href="https://www.facebook.com/vera.bashm"
-                >Facebook</a
-              >
-            </div>
-
             <div class="place__paragraphs">
               <p class="place__paragraph">
-                Алтай — одно из красивейших мест в России. В первую очередь из-за
-                гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
+                Алтай — одно из красивейших мест в России. В первую очередь
+                из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
                 соснами, горные реки и озёра. А если вы откроете в автомобиле
                 окна, сможете познакомиться с невидимым чудом здешних мест —
                 горным воздухом.
@@ -233,8 +237,9 @@
               <p class="place__paragraph">
                 Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
                 Так вы увидите всё разнообразие местной флоры и фауны. По лесам
-                Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся
-                косули. И знаменитые манулы — тоже обитатели Алтайского края.
+                Алтая бродят лоси, над хребтами летают орлы, а на равнинах
+                пасутся косули. И знаменитые манулы — тоже обитатели Алтайского
+                края.
               </p>
             </div>
           </article>
@@ -242,18 +247,18 @@
           <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
 
-            <img
-              class="place__image"
-              src="./images/place-winter-baikal.jpg"
-              alt="Зимний Байкал"
-            >
-
             <div class="place__website">
               <h4 class="place__url-heading">URL</h4>
               <a class="place__link links" href="https://vk.com/baikalmile"
                 >https://vk.com/baikalmile</a
               >
             </div>
+
+            <img
+              class="place__image"
+              src="./images/place-winter-baikal.jpg"
+              alt="Зимний Байкал"
+            >
 
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -263,10 +268,11 @@
               </p>
               <p class="place__paragraph">
                 Конечно, это всё так. Но Байкал ещё идеальное место
-                для соревнований по скийорингу. Это такой вид спорта, когда лыжник
-                привязывает себя к мотоциклу, и тандем старается развить как можно
-                бóльшую скорость на льду. В марте 2019 года на фестивале
-                «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+                для соревнований по скийорингу. Это такой вид спорта, когда
+                лыжник привязывает себя к мотоциклу, и тандем старается развить
+                как можно бóльшую скорость на льду. В марте 2019 года на
+                фестивале «Байкальская миля» был поставлен мировой рекорд —
+                197.011 км/ч.
               </p>
             </div>
           </article>
@@ -274,18 +280,18 @@
           <article class="place">
             <h3 class="place__title">Карелия</h3>
 
-            <img
-              class="place__image"
-              src="./images/place-karelia.jpg"
-              alt="Карелия"
-            >
-
             <div class="place__website">
               <h4 class="place__url-heading">URL</h4>
               <a class="place__link links" href="http://vodlozero.ru"
                 >http://vodlozero.ru/</a
               >
             </div>
+
+            <img
+              class="place__image"
+              src="./images/place-karelia.jpg"
+              alt="Карелия"
+            >
 
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -308,15 +314,22 @@
             Байкала на электричках.
           </p>
         </a>
-
       </main>
       <footer class="footer">
         <nav class="footer__links">
           <a class="footer__link links" href="https://yandex.ru/maps">Карты</a>
-          <a class="footer__link links" href="https://yandex.ru/pogoda">Погода</a>
-          <a class="footer__link links" href="https://rasp.yandex.ru">Расписание</a>
-          <a class="footer__link links" href="https://calendar.yandex.ru">Календарь</a>
-          <a class="footer__link links" href="https://travel.yandex.ru">Путешествия</a>
+          <a class="footer__link links" href="https://yandex.ru/pogoda"
+            >Погода</a
+          >
+          <a class="footer__link links" href="https://rasp.yandex.ru"
+            >Расписание</a
+          >
+          <a class="footer__link links" href="https://calendar.yandex.ru"
+            >Календарь</a
+          >
+          <a class="footer__link links" href="https://travel.yandex.ru"
+            >Путешествия</a
+          >
         </nav>
         <p class="footer__copyright">&copy; 2021. Зыбкин Евгений</p>
       </footer>
