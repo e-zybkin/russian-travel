@@ -2,7 +2,8 @@
   min-height: 12px;
   margin: 0;
   padding: 0;
-  font-family: Inter;
+  font-weight: normal;
+  font-family: Inter, Arial, sans-serif;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
